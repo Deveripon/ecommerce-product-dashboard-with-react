@@ -6,7 +6,9 @@
         @apply bg-gray-200 h-screen;
     }
     /* // scroolbar for firefox */
-
+    .toastify__toast {
+        width: 500px;
+    }
     .product-list:hover {
         scrollbar-color: #bcc0c4 #e6e7eb;
     }

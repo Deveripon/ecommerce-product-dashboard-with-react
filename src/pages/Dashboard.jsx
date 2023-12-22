@@ -1,8 +1,10 @@
 import Header from "../Header";
 import LeftSideBar from "../components/LeftSideBar";
 import { Outlet } from "react-router-dom";
-
+import { useLocation } from "react-router-dom";
+import ProductLIst from "../components/ProductLIst";
 const Dashboard = () => {
+    const location = useLocation();
     return (
         <>
             <section className="product-dashboard">
@@ -10,7 +12,7 @@ const Dashboard = () => {
                     <LeftSideBar />
                     <div className="main-content w-4/5">
                         <Header />
-                        <Outlet />
+                        {location.pathname === "/" ? <ProductLIst /> : <Outlet />}
                     </div>
                 </div>
             </section>
