@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { MdDeleteSweep } from "react-icons/md";
 import { toast } from "react-toastify";
+import { IoMdClose } from "react-icons/io";
 
 const ProductLIst = () => {
     //get all products
@@ -130,7 +131,7 @@ const ProductLIst = () => {
                                 {productList.length > 0 ? (
                                     productList.map((item, index) => {
                                         return (
-                                            <div className="product transform duration-300 hover:scale-[1.01] rounded-md border border-gray-300  bg-slate-100 flex justify-between items-center">
+                                            <div className="product transform duration-300 hover:scale-[1.01] rounded-md border border-gray-300 overflow-hidden bg-slate-100 flex justify-between items-center">
                                                 <div
                                                     onClick={() => {
                                                         getClickedItem(item.id);
@@ -209,6 +210,13 @@ const ProductLIst = () => {
                             } transform duration-700`}>
                             <div className="product-preview">
                                 <div className="product-description-section border border-gray-200 p-5 rounded-md flex-1">
+                                    <button
+                                        onClick={() => {
+                                            setIsEdit(false);
+                                        }}
+                                        className=" bg-gray-400 rounded-full p-1 text-white hover:bg-gray-500 transform duration-150">
+                                        <IoMdClose />
+                                    </button>
                                     <form onSubmit={upadateProductData} action="">
                                         <div className="product-description-input w-[calc(100%_-_70px)] m-auto">
                                             <div className="input-group mb-2 flex flex-col">

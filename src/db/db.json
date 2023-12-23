@@ -1,24 +1,44 @@
 {
   "products": [
     {
-      "name": "devripon",
-      "category": "Female",
-      "subcategory": "Sharee",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "fdgdfhg",
-      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
+      "name": "Apple Watch 5",
+      "category": "Trendy",
+      "subcategory": "Accecories",
+      "r_price": "1200",
+      "s_price": "1000",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "photo": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
       "id": 1
     },
     {
-      "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Female",
-      "subcategory": "T-shirt",
+      "name": "Niccon PerfectSHot Camera 2.1",
+      "category": "Uncategorized",
+      "subcategory": "Electronics",
       "r_price": "120",
       "s_price": "100",
-      "desc": "sgfdfhgdfhg",
-      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "photo": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
       "id": 2
+    },
+    {
+      "name": "Nike AirForce 1",
+      "category": "Male",
+      "subcategory": "Fashion",
+      "r_price": "120",
+      "s_price": "100",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "photo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D",
+      "id": 3
+    },
+    {
+      "name": "Dove petroliam face POwder",
+      "category": "Female",
+      "subcategory": "Fashion",
+      "r_price": "120",
+      "s_price": "100",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "photo": "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8fDB8fHww",
+      "id": 4
     }
   ],
   "category": [
@@ -49,6 +69,22 @@
     {
       "name": "Featured",
       "id": 7
+    },
+    {
+      "name": "Uncategorized",
+      "id": 8
+    },
+    {
+      "name": "Fashion",
+      "id": 9
+    },
+    {
+      "name": "Apple",
+      "id": 10
+    },
+    {
+      "name": "Electronics",
+      "id": 11
     }
   ],
   "subcategory": [
@@ -75,6 +111,26 @@
     {
       "name": "Hooudy",
       "id": 6
+    },
+    {
+      "name": "Electronics",
+      "id": 7
+    },
+    {
+      "name": "Accecories",
+      "id": 8
+    },
+    {
+      "name": "Fashion",
+      "id": 9
+    },
+    {
+      "name": "Electronics",
+      "id": 10
+    },
+    {
+      "name": "Uncategorised",
+      "id": 11
     }
   ]
 }

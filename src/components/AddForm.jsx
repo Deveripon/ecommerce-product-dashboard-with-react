@@ -25,10 +25,10 @@ const AddForm = () => {
                     name: "",
                     category: "",
                     subcategory: "",
-                    r_price: undefined,
-                    s_price: undefined,
-                    desc: "",
-                    photo: "",
+                    r_price: null,
+                    s_price: null,
+                    desc: null,
+                    photo: null,
                 });
             })
             .catch((err) => {
