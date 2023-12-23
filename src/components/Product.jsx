@@ -1,7 +1,8 @@
 import { MdDeleteSweep } from "react-icons/md";
-const Product = ({ name, photo, category, r_price, s_price, key }) => {
+const Product = ({ name, photo, category, r_price, s_price, key, id, clickOn }) => {
     return (
         <div
+            onClick={clickOn}
             key={key}
             className="product transform duration-300 hover:scale-[1.01] p-4 rounded-md border border-gray-300 bg-slate-100 shadow-sm flex justify-center items-center">
             <div className="product-img  flex-1 mx-3 text-center border-r border-gray-300  min-h-[100px] flex justify-center items-center flex-col ">

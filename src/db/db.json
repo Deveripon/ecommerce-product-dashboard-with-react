@@ -1,74 +1,24 @@
 {
   "products": [
     {
-      "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Winter",
-      "subcategory": "T-shirt",
+      "name": "devripon",
+      "category": "Female",
+      "subcategory": "Sharee",
       "r_price": "120",
       "s_price": "100",
-      "desc": "sfdsdgsffd",
-      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
+      "desc": "fdgdfhg",
+      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
       "id": 1
     },
     {
       "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Winter",
+      "category": "Female",
       "subcategory": "T-shirt",
       "r_price": "120",
       "s_price": "100",
-      "desc": "sfdsdgsffd",
-      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
+      "desc": "sgfdfhgdfhg",
+      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
       "id": 2
-    },
-    {
-      "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Winter",
-      "subcategory": "T-shirt",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "sfdsdgsffd",
-      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
-      "id": 3
-    },
-    {
-      "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Winter",
-      "subcategory": "T-shirt",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "sfdsdgsffd",
-      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
-      "id": 4
-    },
-    {
-      "name": "Shahadat Hussain Ripon(devripon)",
-      "category": "Winter",
-      "subcategory": "T-shirt",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "sfdsdgsffd",
-      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png",
-      "id": 5
-    },
-    {
-      "name": "devripon",
-      "category": "Male",
-      "subcategory": "Lungi",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "sdaD",
-      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
-      "id": 6
-    },
-    {
-      "name": "devripon",
-      "category": "Male",
-      "subcategory": "Lungi",
-      "r_price": "120",
-      "s_price": "100",
-      "desc": "sdaD",
-      "photo": "https://energaia.com/wp-content/uploads/2020/10/team-member-8.jpg",
-      "id": 7
     }
   ],
   "category": [

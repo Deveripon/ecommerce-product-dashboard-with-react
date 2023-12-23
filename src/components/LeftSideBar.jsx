@@ -15,19 +15,19 @@ const LeftSideBar = () => {
                             <Link to="/">Dashboard</Link>
                         </li>
                         <li className="text-[20px] text-gray-600 hover:bg-gray-200 py-2 min-w-[140px] text-center rounded-md w-fit">
-                            <Link to="/orders">Orders</Link>
+                            <Link to="/">Orders</Link>
                         </li>
                         <li className="text-[20px] active-item  py-2 min-w-[140px] text-center rounded-md w-fit">
-                            <Link to="/products">Products</Link>
+                            <Link to="/">Products</Link>
                         </li>
                         <li className="text-[20px] text-gray-600 hover:bg-gray-200 py-2 min-w-[140px] text-center rounded-md w-fit">
-                            <Link to="/customers">Customers</Link>
+                            <Link to="/">Customers</Link>
                         </li>
                         <li className="text-[20px] text-gray-600 hover:bg-gray-200 py-2 min-w-[140px] text-center rounded-md w-fit">
-                            <Link to="/messages">Messages</Link>
+                            <Link to="/">Messages</Link>
                         </li>
                         <li className="text-[20px] text-gray-600 hover:bg-gray-200 py-2 min-w-[140px] text-center rounded-md w-fit">
-                            <Link to="/settings">Settings</Link>
+                            <Link to="/">Settings</Link>
                         </li>
                     </ul>
                 </nav>
